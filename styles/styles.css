@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+body{
+    height: 100vh;
+    margin: auto;
+    font-family: 'Didact Gothic', sans-serif;
+    background: radial-gradient(circle, #f0f0f0, #219397, #1cc5af);
+}
+h1{
+    padding: 20px;
+    margin-left: 650px;
+    font-size: 4rem;
+    color:white;
+}
+
+/* Add some general styling to the form */
+form {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 5px #000000;
+}
+
+/* Add some spacing between the form elements */
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style the input fields */
+input {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Style the submit button */
+button {
+    background-color:#219397;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add some hover effect to the submit button */
+button:hover {
+    background-color: #219397b7;
+}
+
+/* Style the result container */
+#result {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
